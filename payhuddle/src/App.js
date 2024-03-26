@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './App.css';
 import MyComponent from 'mycomponent'
-import { useEffect } from 'react';
+
 
 function App() {
   const increment = "Increment"

@@ -15,8 +15,8 @@ const MyComponent = ({increment, decrement, count, setCount}) => {
             <h1>Welcome to MyComponent!</h1>
             <p>Use the Component on the Other Projects</p>
             <h2>{count}</h2>
-            <button className='btn btn-primary' onClick={()=>handleIncrement()}>{increment}</button>
-            <button className='btn btn-primary' onClick={()=>handleDecrement()}>{decrement}</button>
+            <button onClick={()=>handleIncrement()}>{increment}</button>
+            <button onClick={()=>handleDecrement()}>{decrement}</button>
         </div>
     );
 };
